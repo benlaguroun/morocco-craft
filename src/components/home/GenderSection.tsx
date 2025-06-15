@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import GlassContainer from "@/components/GlassContainer";
 import { Button } from "@/components/ui/button";
 import menImage from "@/assets/hero-desktop-men.png";
-import womenImage from "@/assets/hero1.png";
+import womenImage from "@/assets/gender-section-women.jpg";
 import { Link } from "react-router-dom";
 import { Gem, Sparkles, CircleEllipsis } from "lucide-react";
 
@@ -12,7 +12,7 @@ const GenderSection = () => {
 
   return (
     <section className="flex justify-center items-center py-16 px-4 w-full max-w-[1100px] mx-auto">
-      <div className="relative w-full max-w-3xl h-80 md:h-96">
+      <div className="relative w-full max-w-3xl h-80 md:h-96 rounded-2xl shadow-xl overflow-hidden bg-white/10 backdrop-blur-md">
         {/* Men Half (Left) */}
         <div
           className={cn(
