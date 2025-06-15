@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-gradient-to-br from-sand via-white to-emerald dark:from-zinc-900 dark:via-zinc-800 dark:to-stone bg-fixed min-h-screen;
+}
+
+/* Glassmorphism container */
+.glass {
+  @apply bg-glassBg dark:bg-glassDark shadow-glass backdrop-blur-sm border border-gold/30 dark:border-gold/20 rounded-glass;
+}
+
+.glass-hover {
+  @apply transition hover:shadow-gold hover:border-gold/60;
+}
+
+/* Headline font */
+.display {
+  @apply font-display;
+}
+
+/* Base text colors for dark mode */
+* {
+  @apply text-zinc-800 dark:text-white;
+}
+
+/* Override for specific elements that should keep their colors */
+.text-gold,
+.dark .text-gold {
+  @apply !text-gold;
+}
+
+.text-emerald,
+.dark .text-emerald {
+  @apply !text-emerald;
+}
+
+a,
+button {
+  @apply focus:outline-none focus:ring-2 focus:ring-gold/50;
+}
+
+/* Mode toggle button */
+.theme-toggle {
+  @apply transition bg-glassBg dark:bg-glassDark p-2 rounded-full border border-gold/50 shadow-glass hover:shadow-gold;
+}
+
+/* Remove scrollbars for horizontal product carousels */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
