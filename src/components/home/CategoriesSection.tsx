@@ -4,19 +4,19 @@ const categories = [
   {
     name: "Jewelry",
     image:
-      "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80",
+      "https://i.pinimg.com/736x/2b/61/ac/2b61ac4e106c8fd515cd0e085ace7a56.jpg",
     to: "/products?category=jewelry",
   },
   {
     name: "Bags",
     image:
-      "https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=400&q=80",
+      "https://i.pinimg.com/736x/18/45/b3/1845b3d387828a846fec005ea6c51c72.jpg",
     to: "/products?category=bags",
   },
   {
     name: "Accessories",
     image:
-      "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?auto=format&fit=crop&w=400&q=80",
+      "https://i.pinimg.com/736x/44/36/d7/4436d7d1542532047d1b765926886a68.jpg",
     to: "/products?category=accessories",
   },
 ];
@@ -32,7 +32,7 @@ const CategoriesSection = () => {
           Iconic styles and rare Moroccan finds
         </p>
       </div>
-      <div className="flex flex-col md:flex-row w-full items-center justify-center gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
         {categories.map((cat) => (
           <CategoryCard key={cat.name} {...cat} />
         ))}

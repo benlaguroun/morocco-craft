@@ -21,25 +21,17 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black/50 md:bg-black/30 z-0" />
 
       {/* Content */}
-      <div className="relative z-0 flex flex-col md:flex-row h-full">
+      <div className="relative z-10 flex flex-col md:flex-row h-full">
         {/* Left: Text */}
-        <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center p-8 md:p-16 bg-white/10 backdrop-blur-md border-r border-white/10 mt-20 md:mt-0">
+        <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center p-8 md:p-16 bg-white/10 backdrop-blur-md border-r border-white/10 rounded-none md:rounded-tr-[3rem] md:rounded-br-[3rem] shadow-lg">
           <div className="max-w-md text-center md:text-right text-white">
-            {/* Big H1 Title with Yellow Effect */}
+            {/* Big H1 Title with Yellow Gradient */}
             <h1 className="hidden md:block text-4xl md:text-6xl font-extrabold font-serif mb-4 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-400 bg-clip-text text-transparent drop-shadow-md">
               Moroccan Handcrafted Jewelry
             </h1>
 
-            {/* Paragraph with Cultural Emphasis
-             <p className="mt-4 text-base md:text-lg text-gray-300 leading-relaxed">
-              Explore timeless pieces inspired by Moroccan heritage.{" "}
-              <br className="hidden md:block" />
-              Handcrafted with passion, made to adorn every moment.
-            </p> */}
-
             {/* Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row sm:justify-center md:justify-end gap-4 w-full max-w-xs mx-auto sm:max-w-none">
-              {/* Yellow Bordered Button */}
               <Link to="/collections" className="w-full sm:w-auto">
                 <Button
                   size="lg"
@@ -49,7 +41,6 @@ const HeroSection = () => {
                 </Button>
               </Link>
 
-              {/* Filled Gradient Button */}
               <Link to="/lookbook" className="w-full sm:w-auto">
                 <Button
                   size="lg"
@@ -62,7 +53,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right spacing for layout on desktop */}
+        {/* Right side spacing (can be used for image/text in future) */}
         <div className="hidden md:block md:w-1/2" />
       </div>
     </section>
