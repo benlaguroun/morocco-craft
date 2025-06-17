@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
+1. [Project Overview](#projct-overview)
 2. [Features](#features)
 3. [Technology Stack](#technology-stack)
 4. [Project Structure](#project-structure)
