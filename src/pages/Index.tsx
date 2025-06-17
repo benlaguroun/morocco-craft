@@ -16,11 +16,11 @@ const Index = () => (
     {/* Hero Section */}
     <HeroSection />
 
-    {/* Gender Section */}
-    <GenderSection />
-
     {/* Features Section */}
     <FeaturesSection />
+
+    {/* Gender Section */}
+    <GenderSection />
 
     {/* Categories */}
     <CategoriesSection />

@@ -34,7 +34,7 @@ const Header = () => {
           <MobileNav />
           <Link to="/" className="flex items-center gap-2">
             <span className="display text-xl sm:text-2xl md:text-3xl text-gold tracking-tight mt-0.5">
-              Maroc Chic
+              Brace-Way
             </span>
             <span className="sr-only">Home</span>
           </Link>
