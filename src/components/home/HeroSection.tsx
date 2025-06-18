@@ -31,19 +31,19 @@ const HeroSection = () => {
             </h1>
 
             <div className="mt-10 flex flex-col sm:flex-row sm:justify-center md:justify-end gap-4 w-full max-w-xs mx-auto sm:max-w-none">
-              <Link to="/collections" className="w-full sm:w-auto">
+              <Link to="/products" className="w-full sm:w-auto">
                 <Button
                   size="lg"
-                  className="w-full bg-transparent text-yellow-400 border border-yellow-400 hover:bg-yellow-400 hover:text-black transition duration-300"
+                  className="w-full rounded-glass border border-gold bg-transparent text-gold font-medium hover:bg-gold hover:text-white transition duration-300 shadow-gold"
                 >
                   Shop Collection
                 </Button>
               </Link>
 
-              <Link to="/lookbook" className="w-full sm:w-auto">
+              <Link to="/products" className="w-full sm:w-auto">
                 <Button
                   size="lg"
-                  className="w-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-400 text-black font-semibold shadow-md hover:shadow-yellow-500/60 transition duration-300"
+                  className="w-full rounded-glass bg-gold text-white font-semibold hover:bg-gold/90 shadow-gold transition duration-300"
                 >
                   View Lookbook
                 </Button>
