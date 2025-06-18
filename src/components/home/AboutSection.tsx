@@ -30,7 +30,7 @@ const AboutSection = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1539650116574-75c0c6d0d1d3?auto=format&fit=crop&w=500&q=80"
+              src="https://i.pinimg.com/736x/d5/42/80/d5428056620820466bb2921f09767a9e.jpg"
               alt="Moroccan Artisan"
               className="rounded-glass w-full max-w-md h-80 object-cover shadow-gold"
             />

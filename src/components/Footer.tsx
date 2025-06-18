@@ -6,7 +6,7 @@ const Footer = () => (
   <footer className="relative z-20 mt-16 w-full">
     <GlassContainer className="max-w-[1400px] mx-auto px-8 py-6 flex flex-col md:flex-row justify-between items-center gap-6 bg-glassBg/75 dark:bg-glassDark/80">
       <div>
-        <span className="display text-xl text-gold">Maroc Chic</span>
+        <span className="display text-xl text-gold">Brace Way</span>
         <p className="text-xs text-stone mt-1">
           Handcrafted in Morocco &copy; {currentYear}
         </p>
