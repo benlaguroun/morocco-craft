@@ -64,15 +64,16 @@ const Header = () => {
                 <NavigationMenuTrigger className="bg-transparent hover:bg-transparent focus:bg-transparent data-[active]:bg-transparent data-[state=open]:bg-transparent text-foreground dark:text-white hover:text-gold">
                   Shop
                 </NavigationMenuTrigger>
-                <NavigationMenuContent>
+
+                <NavigationMenuContent className="bg-black dark:bg-black shadow-lg rounded-md">
                   <div className="grid w-[200px] gap-2 p-4">
                     {categories.map((category) => (
                       <Link
                         key={category.path}
                         to={category.path}
-                        className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        className="block select-none space-y-1 rounded-md p-3 text-white hover:bg-gold/10 transition-colors"
                       >
-                        <div className="text-sm font-medium leading-none text-foreground dark:text-white">
+                        <div className="text-sm font-medium leading-none">
                           {category.name}
                         </div>
                       </Link>

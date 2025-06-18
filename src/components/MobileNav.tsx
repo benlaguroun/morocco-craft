@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -18,9 +18,23 @@ const categories = [
 const MobileNav = () => {
   const location = useLocation();
   const [shopOpen, setShopOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); // for controlling sheet state
+
+  // Close menu on scroll
+  useEffect(() => {
+    const handleScroll = () => setIsOpen(false);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Close menu on route change
+  useEffect(() => {
+    setIsOpen(false);
+    setShopOpen(false);
+  }, [location.pathname]);
 
   return (
-    <Sheet>
+    <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger asChild>
         <button
           className="inline-flex md:hidden items-center justify-center p-2 rounded-full border border-gold/40 bg-glassBg dark:bg-glassDark shadow-glass"
@@ -37,20 +51,21 @@ const MobileNav = () => {
           <span className="display text-xl text-gold tracking-tight">
             Maroc Chic
           </span>
-          <SheetTrigger asChild>
-            <button
-              aria-label="Close navigation"
-              className="rounded-full p-1 hover:bg-gold/10 transition"
-            >
-              <X className="text-gold" />
-            </button>
-          </SheetTrigger>
+          <button
+            aria-label="Close navigation"
+            onClick={() => setIsOpen(false)}
+            className="rounded-full p-1 hover:bg-gold/10 transition"
+          >
+            <X className="text-gold" />
+          </button>
         </div>
+
         <nav className="mt-8 flex flex-col gap-3 px-4">
           {navLinks.map((link) => (
             <Link
               to={link.path}
               key={link.path}
+              onClick={() => setIsOpen(false)}
               className={`py-3 px-3 rounded-lg text-base font-medium text-foreground dark:text-white ${
                 location.pathname === link.path
                   ? "text-gold bg-gold/10"
@@ -61,7 +76,7 @@ const MobileNav = () => {
             </Link>
           ))}
 
-          {/* Shop dropdown for mobile */}
+          {/* Shop dropdown */}
           <div>
             <button
               onClick={() => setShopOpen(!shopOpen)}
@@ -80,6 +95,7 @@ const MobileNav = () => {
                   <Link
                     key={category.path}
                     to={category.path}
+                    onClick={() => setIsOpen(false)}
                     className="block py-2 px-3 rounded-lg text-sm text-foreground dark:text-white hover:text-gold hover:bg-gold/10"
                   >
                     {category.name}
