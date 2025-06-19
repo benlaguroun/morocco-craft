@@ -37,7 +37,7 @@ export const accessoriesProducts = [
     name: "Handcrafted Mirror",
     price: 82.0,
     image:
-      "https://i.pinimg.com/736x/6f/3d/72/6f3d72a6d0b388a7cb31f46be82fdc8a.jpg",
+      "https://i.pinimg.com/736x/a6/0e/cf/a60ecf5b5e4f3893e8e9fadb112b2fb9.jpg",
     desc: "Decorative wall mirror with hand-carved wooden frame in Moorish style.",
     materials: "Wood, Glass",
     dimensions: "40cm x 50cm",
@@ -48,7 +48,7 @@ export const accessoriesProducts = [
     name: "Tassel Keychain",
     price: 14.99,
     image:
-      "https://i.pinimg.com/736x/3b/97/18/3b9718e67d1db1b3915a34b8b0a98111.jpg",
+      "https://i.pinimg.com/736x/94/77/4f/94774fa7ffd7ac8c1e8728a2f9f3df60.jpg",
     desc: "Colorful handmade tassel keychain inspired by Moroccan festival décor.",
     materials: "Cotton, Metal Ring",
     dimensions: "15cm length",
@@ -59,7 +59,7 @@ export const accessoriesProducts = [
     name: "Zellige Coaster Set",
     price: 22.5,
     image:
-      "https://i.pinimg.com/736x/33/70/52/3370522b59abbb2ef1a97316000f26c6.jpg",
+      "https://i.pinimg.com/736x/4b/29/43/4b2943e109a8d0238fd57f053ff00a9b.jpg",
     desc: "Set of 4 ceramic coasters with classic zellige tile patterns in vibrant colors.",
     materials: "Ceramic, Cork Base",
     dimensions: "10cm x 10cm each",
@@ -70,7 +70,7 @@ export const accessoriesProducts = [
     name: "Leather Notebook Cover",
     price: 34.0,
     image:
-      "https://i.pinimg.com/736x/36/98/b6/3698b6ffbd57c98b44b210cc9f3be8d1.jpg",
+      "https://i.pinimg.com/736x/22/cb/9d/22cb9d0d025f226cc4d635aea0ba8aef.jpg",
     desc: "Handstitched leather notebook cover with traditional embossing patterns.",
     materials: "Genuine Leather",
     dimensions: "Fits A5 notebooks",
@@ -81,7 +81,7 @@ export const accessoriesProducts = [
     name: "Moroccan Incense Burner",
     price: 29.0,
     image:
-      "https://i.pinimg.com/736x/59/e3/56/59e3569b413bc2e512e87c1f1e00d5ed.jpg",
+      "https://i.pinimg.com/736x/a3/99/08/a39908a83bb808d40f4d37fd4ae1804b.jpg",
     desc: "Decorative incense burner with dome lid and star cutouts for aromatic rituals.",
     materials: "Brass",
     dimensions: "12cm diameter x 10cm height",
@@ -92,7 +92,7 @@ export const accessoriesProducts = [
     name: "Tuareg Jewelry Box",
     price: 58.0,
     image:
-      "https://i.pinimg.com/736x/ff/90/d5/ff90d5f4d7236d6f637a9c95b5bde0d5.jpg",
+      "https://i.pinimg.com/736x/3a/ec/b4/3aecb4601252077949552618bfa659fb.jpg",
     desc: "Hand-carved wooden box with engraved Tuareg symbols, ideal for storing treasures.",
     materials: "Wood, Metal Accents",
     dimensions: "18cm x 12cm x 8cm",
@@ -103,7 +103,7 @@ export const accessoriesProducts = [
     name: "Camel Bone Letter Opener",
     price: 19.99,
     image:
-      "https://i.pinimg.com/736x/64/76/29/6476292ae537cd2c997ec16ac272330c.jpg",
+      "https://i.pinimg.com/736x/09/4a/75/094a754624a6ab3620b5f87e59f4b787.jpg",
     desc: "Elegant letter opener handcrafted from camel bone and inlaid with silver detailing.",
     materials: "Camel Bone, Silver Inlay",
     dimensions: "17cm length",

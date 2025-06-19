@@ -37,7 +37,7 @@ export const jewelryProducts = [
     name: "Tuareg Cuff Bracelet",
     price: 129.99,
     image:
-      "https://i.pinimg.com/736x/82/99/9f/82999f5b2263651ed869cc3a4f2cc2c2.jpg",
+      "https://i.pinimg.com/736x/2a/95/cd/2a95cdaad3472c21602abe38387f9d72.jpg",
     desc: "Bold handmade silver cuff with carved Tuareg symbols, representing nomadic culture.",
     materials: "Sterling Silver",
     dimensions: "6cm diameter, adjustable",
@@ -48,7 +48,7 @@ export const jewelryProducts = [
     name: "Hand of Fatima Necklace",
     price: 64.5,
     image:
-      "https://i.pinimg.com/736x/44/8a/2c/448a2c8ff4ecaf9f1ef0cf5d54bda309.jpg",
+      "https://i.pinimg.com/736x/59/7f/cb/597fcb4ce16926ffc0a4c69e0fd31a07.jpg",
     desc: "Symbolic Hamsa pendant necklace believed to bring protection and blessings.",
     materials: "Silver Alloy, Enamel",
     dimensions: "40cm chain, 2.5cm pendant",
@@ -59,7 +59,7 @@ export const jewelryProducts = [
     name: "Berber Wedding Earrings",
     price: 149.0,
     image:
-      "https://i.pinimg.com/736x/5e/43/7f/5e437f351f27691a4cd9646c2c6cfba7.jpg",
+      "https://i.pinimg.com/736x/75/d7/86/75d7865e62c1b5cdb7edf75b9a4443ca.jpg",
     desc: "Traditional wedding earrings with detailed patterns and red glass beads.",
     materials: "Silver, Red Glass Beads",
     dimensions: "7cm length",
@@ -70,7 +70,7 @@ export const jewelryProducts = [
     name: "Kohl Bottle Amulet",
     price: 59.99,
     image:
-      "https://i.pinimg.com/736x/e5/aa/53/e5aa53554cbe12f52a7088a79b9021c7.jpg",
+      "https://i.pinimg.com/736x/e7/1e/37/e71e37109dfd50ce9bc3ab0f4ea37071.jpg",
     desc: "Tiny silver bottle pendant inspired by traditional kohl containers worn as charms.",
     materials: "Sterling Silver",
     dimensions: "45cm chain, 3cm pendant",
@@ -81,7 +81,7 @@ export const jewelryProducts = [
     name: "Atlas Bead Necklace",
     price: 72.0,
     image:
-      "https://i.pinimg.com/736x/ed/fc/c3/edfcc3420a0b9d0026fa01f1fd6d22b3.jpg",
+      "https://i.pinimg.com/736x/5c/6a/26/5c6a264040eb69e9509d32fa01f57d58.jpg",
     desc: "Multi-bead necklace inspired by the colors and craftsmanship of the Atlas Mountains.",
     materials: "Glass, Silver, Natural Stone",
     dimensions: "50cm length",
@@ -92,7 +92,7 @@ export const jewelryProducts = [
     name: "Filigree Dome Ring",
     price: 84.75,
     image:
-      "https://i.pinimg.com/736x/c1/32/41/c132419d5a25c1e7e8890c8c9be3c0c8.jpg",
+      "https://i.pinimg.com/736x/58/90/72/5890721e83312e7a118b58a46c735ec3.jpg",
     desc: "Ornate silver dome ring with fine filigree detailing, reflecting ancient design.",
     materials: "Sterling Silver",
     dimensions: "2cm wide, adjustable",
@@ -103,7 +103,7 @@ export const jewelryProducts = [
     name: "Amulet Coin Anklet",
     price: 47.99,
     image:
-      "https://i.pinimg.com/736x/87/30/af/8730af5146975bb4531f1e07906bc1e7.jpg",
+      "https://i.pinimg.com/736x/d7/45/65/d745650f06cf16e301912bdb249a6d2f.jpg",
     desc: "Delicate anklet featuring miniature Berber-style coin charms that jingle as you walk.",
     materials: "Brass, Silver Plating",
     dimensions: "Adjustable, 22–27cm",
