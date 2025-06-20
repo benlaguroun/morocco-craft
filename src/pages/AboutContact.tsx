@@ -123,11 +123,11 @@ const AboutContact = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-zinc-700 dark:text-zinc-200">
             <div>
               <h4 className="font-bold">
-                Amira Benyoussef – Founder & Creative Director
+                Mohamed benlaguroun – Founder & Creative Director
               </h4>
               <p>
-                mohamed benlaguroun tradition with modern design, curating
-                collections that honor Moroccan culture.
+                Mohamed tradition with modern design, curating collections that
+                honor Moroccan culture.
               </p>
             </div>
             <div>
