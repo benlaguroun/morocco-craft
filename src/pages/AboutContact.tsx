@@ -126,8 +126,8 @@ const AboutContact = () => {
                 Amira Benyoussef – Founder & Creative Director
               </h4>
               <p>
-                Amira bridges tradition with modern design, curating collections
-                that honor Moroccan culture.
+                mohamed benlaguroun tradition with modern design, curating
+                collections that honor Moroccan culture.
               </p>
             </div>
             <div>
